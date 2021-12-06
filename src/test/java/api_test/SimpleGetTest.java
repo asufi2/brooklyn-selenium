@@ -16,7 +16,7 @@ public class SimpleGetTest {
     private static final Logger LOGGER = LogManager.getLogger(SimpleGetTest.class);
 
     @Test
-    public void getAllUsers() {
+    public void getUsers() {
         LOGGER.info("--------------API Test: Get All users------------------");
 
         RestAssured.baseURI = "https://reqres.in/api/users";
